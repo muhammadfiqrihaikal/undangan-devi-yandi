@@ -23,7 +23,31 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: "Undangan Pernikahan Devi & Yandi",
-  description: "Kami mengundang Anda untuk merayakan pernikahan Devi Apriliyanti Safara & Yandi Hidayat pada 24 Mei 2026.",
+  description:
+    "Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.",
+  metadataBase: new URL("https://undangan-devi-yandi.vercel.app"),
+  openGraph: {
+    title: "Undangan Pernikahan Devi & Yandi",
+    description:
+      "Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.",
+    url: "https://undangan-devi-yandi.vercel.app/",
+    type: "website",
+    images: [
+      {
+        url: "/asset/cover-utama.png",
+        width: 1200,
+        height: 630,
+        alt: "Undangan Pernikahan Devi & Yandi",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Undangan Pernikahan Devi & Yandi",
+    description:
+      "Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.",
+    images: ["/asset/cover-utama.png"],
+  },
 };
 
 export default function RootLayout({
