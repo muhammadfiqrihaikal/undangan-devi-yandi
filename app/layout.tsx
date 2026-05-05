@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/asset/cover-utama.png",
+        url: "https://undangan-devi-yandi.vercel.app/asset/cover-utama.png",
         width: 1200,
         height: 630,
         alt: "Undangan Pernikahan Devi & Yandi",
@@ -46,7 +46,9 @@ export const metadata: Metadata = {
     title: "Undangan Pernikahan Devi & Yandi",
     description:
       "Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.",
-    images: ["/asset/cover-utama.png"],
+    images: [
+      "https://undangan-devi-yandi.vercel.app/asset/cover-utama.png",
+    ],
   },
 };
 
